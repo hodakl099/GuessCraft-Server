@@ -21,15 +21,18 @@ Used Ktor Features
     -Content Negotiation: The server uses Gson to convert Kotlin objects to JSON and vice versa.
     -Call Logging: Logs all HTTP requests and responses, providing useful debugging information.
 
-Installation and Run
+## Installation
 
-To clone and run this application, you'll need Git and IntelliJ IDEA or any similar IDE that supports Kotlin and Ktor. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Android Studio](https://developer.android.com/studio) installed on your computer. From your command line:
 
-bash
-
+```bash
 # Clone this repository
 $ git clone https://github.com/hodakl099/GuessCraft-Server.git
 
-# Clone Client-side Android App
-$ git clone https://github.com/hodakl099/Guess-Craft
+# Install dependencies
+$ ./gradlew build
+
+# Install client-side android application
+[Android Application](https://github.com/hodakl099/Guess-Craft)
+ https://github.com/hodakl099/Guess-Craft
 
