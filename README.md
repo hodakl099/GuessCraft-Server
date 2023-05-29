@@ -34,10 +34,13 @@ $ ./gradlew build
 
 # Clone client-side android application
 $ git clone https://github.com/hodakl099/GuessCraft.git
+```
 
 
 # Run the server and client on the same IP and port
+```
 $ git clone https://github.com/hodakl099/GuessCraft.git
+```
 
 # GuessCraft - Server and Client Communication Setup Guide
 
