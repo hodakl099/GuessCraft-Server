@@ -50,7 +50,6 @@ data class Player(
         pongTime = System.currentTimeMillis()
         isOnline = true
     }
-
     fun disconnect() {
         pingJob?.cancel()
     }
