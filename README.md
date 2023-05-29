@@ -32,7 +32,7 @@ $ git clone https://github.com/hodakl099/GuessCraft-Server.git
 # Install dependencies
 $ ./gradlew build
 
-# Install client-side android application
-[Android Application](https://github.com/hodakl099/Guess-Craft)
+# Clone client-side android application
+$ git clone https://github.com/hodakl099/GuessCraft.git
 
 
