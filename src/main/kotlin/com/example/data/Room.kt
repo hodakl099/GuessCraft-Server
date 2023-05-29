@@ -258,17 +258,17 @@ class Room(
 
     private fun gameRunning() {
         winningPlayers = listOf()
-        val wordToSend = word ?: curWords?.random() ?: words.random()
+        val wordToSend = word ?: curWords?.random() ?: words?.random()
         word = wordToSend
-        val wordWithUnderscores = wordToSend.transformToUnderscores()
+        val wordWithUnderscores = wordToSend?.transformToUnderscores()
         val drawingUsername = (drawingPlayer ?: players.random()).username
         val gameStateForDrawingPlayer = GameState(
             drawingUsername,
-            wordToSend
+            wordToSend!!
         )
         val gameStateForGuessingPlayers = GameState(
             drawingUsername,
-            wordWithUnderscores
+            wordWithUnderscores!!
         )
         GlobalScope.launch {
             broadcastToAllExcept(

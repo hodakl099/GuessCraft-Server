@@ -1,8 +1,10 @@
 package com.example.other
 
+import io.ktor.application.*
 import java.io.File
 
-val words = readWordList("resources/programmers_wordlist.txt")
+val words = ApplicationCallPipeline.ApplicationPhase::class.java.classLoader.getResource("wordlist.txt")?.let { readWordList(it.path) }
+
 
 fun readWordList(fileName: String): List<String> {
     val inputStream = File(fileName).inputStream()
@@ -15,9 +17,9 @@ fun getRandomWords(amount: Int): List<String> {
     var curAmount = 0
     val result = mutableListOf<String>()
     while(curAmount < amount) {
-        val word = words.random()
+        val word = words?.random()
         if(!result.contains(word)) {
-            result.add(word)
+            result.add(word!!)
             curAmount++
         }
     }
