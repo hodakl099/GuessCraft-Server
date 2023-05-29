@@ -28,13 +28,8 @@ To clone and run this application, you'll need Git and IntelliJ IDEA or any simi
 bash
 
 # Clone this repository
-$ git clone https://github.com/yourusername/GuessCraftServer.git
+$ git clone https://github.com/hodakl099/GuessCraft-Server.git
 
-# Go into the repository
-$ cd GuessCraftServer
+# Clone Client-side Android App
+$ git clone https://github.com/hodakl099/Guess-Craft
 
-# Build with Gradle
-$ ./gradlew build
-
-# Run the application
-$ ./gradlew run
