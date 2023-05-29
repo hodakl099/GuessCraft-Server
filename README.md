@@ -1,7 +1,5 @@
 # GuessCraft-Server
 
-GuessCraft Server
-
 This is the server-side component for the GuessCraft game, an engaging multiplayer word guessing game. It handles various server-side functionalities such as room creation, managing player connections, and disconnections.
 
 Technical Stack
