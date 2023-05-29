@@ -1,0 +1,8 @@
+package com.example.data.models
+
+import com.example.data.models.BaseModel
+import com.example.other.Constants.TYPE_NEW_WORDS
+
+data class NewWords(
+    val newWords: List<String>
+): BaseModel(TYPE_NEW_WORDS)
