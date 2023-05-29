@@ -23,7 +23,7 @@ Used Ktor Features
 
 ## Installation
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Android Studio](https://developer.android.com/studio) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [IntelliJ IDEA](https://www.jetbrains.com/idea/) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
