@@ -34,5 +34,5 @@ $ ./gradlew build
 
 # Install client-side android application
 [Android Application](https://github.com/hodakl099/Guess-Craft)
- https://github.com/hodakl099/Guess-Craft
+
 
