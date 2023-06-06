@@ -44,7 +44,7 @@ $ git clone https://github.com/hodakl099/GuessCraft.git
 
 # GuessCraft - Server and Client Communication Setup Guide
 
-In order to have both the GuessCraft Server and Android application communicate with each other, they need to be configured to use the same port number. Additionally, the specific IP address used will depend on whether you're using an Android emulator or a physical Android device.
+In order to have both the GuessCraft Server and [Android Application](https://github.com/hodakl099/Guess-Craft/tree/main) communicate with each other, they need to be configured to use the same port number. Additionally, the specific IP address used will depend on whether you're using an Android emulator or a physical Android device.
 # Server Setup
 
 The Ktor server typically runs on localhost and a specified port. In your application.conf file (or wherever you have your Ktor server set up), make sure the port is set to 8001.
